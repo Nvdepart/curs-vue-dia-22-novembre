@@ -34,9 +34,7 @@
 </template>
 <script>
     export default{
-                mounted:{
-
-                },
+               
                 data(){
                     return {
                         temperatura:0,
