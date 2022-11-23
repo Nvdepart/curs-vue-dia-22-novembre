@@ -76,6 +76,15 @@
                 } else {
                     return true
                 }
+            },
+            tasquesFetes(){
+                let tasquesFetesVar =[]
+                this.tasques.forEach((tasca)=>{
+                    if(tasca.feta== true){
+                        tasquesFetesVar.push(tasca)
+                    }
+                })
+                return tasquesFetesVar.length
             }
         }
 
